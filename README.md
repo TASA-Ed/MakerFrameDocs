@@ -32,7 +32,7 @@ The MakerFrame Game Engine Documentation needs your contribution!
 
 #### **Requirements**
 
-- Install LTS Versions of Node.js Node.js ^20.6.0, ^22.0.0。
+- Install LTS Versions of Node.js Node.js ^20.19.0, ^22.12.0。
 - Use `corepack enable` enable Corepack。
 - Install pnpm >= 7。
 

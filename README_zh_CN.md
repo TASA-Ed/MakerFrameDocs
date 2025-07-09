@@ -32,7 +32,7 @@
 
 #### **要求**
 
-- 安装 LTS 版本 的 Node.js ^20.6.0, ^22.0.0。
+- 安装 LTS 版本 的 Node.js ^20.19.0, ^22.12.0。
 - 使用 `corepack enable` 启用 Corepack。
 - 安装 pnpm >= 7。
 
