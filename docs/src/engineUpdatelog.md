@@ -31,7 +31,7 @@ C表示修订号，一般是Bug修复或新增功能，完全兼容旧工程；
 7、增加：应用程序的一些相关函数；
 8、增加：关闭音效 `game.stopsoundeffect` 函数；
 9、增加：`game.showimage` 和 `game.showsprite` 的坐标功能；
-10、修改：增强sl_fileRead和sl_fileWrite二进制读写功能；
+10、增强：sl_fileRead和sl_fileWrite二进制读写功能；
 11、增强：`game.usegoods` 功能；
 ==\*\*12、修改：game.usegoods、game.equip、game.unload的实现流程和方式（所有道具脚本的$equipScript需要修改）；==
 ==\*\*13、修改：game.equip和game.unload为异步，调用时加yield，且道具脚本中新增和修改了相关函数；==
@@ -76,7 +76,39 @@ C表示修订号，一般是Bug修复或新增功能，完全兼容旧工程；
 46、新增：定时器全局处理函数（`game.gf['timer']`）；
 47、新增：`game.time` 属性，返回当前时间戳；
 ==*48、修改：game.http为函数，返回XMLHttpRequest对象；game.date为$CommonLibJS.formatDate函数；==
-49、其他：优化调整很多代码和细节，修复一些Bugs；
+==*49、修改：levelAlgorithm 和 commonLevelAlgorithm 函数返回的数据（为一个对象，包括Conditions、Properties和Skills）；==
+50、修改：升级链为3种方式：
+
+* （1）fight_role.js 中定义两个函数或一个升级链数据；
+* （2）通用升级链脚本；
+* （3）都无时使用系统自带的；
+
+51、修复：游戏 init 时，第一次不会载入战斗人物自身的升级链问题；
+52、新增：两个系统函数：Array 的 $$value 函数 和 $CommonLibJS.setObjectValue；
+53、修复：将 convertToHTML 的一个问题修复，并增强和优化；
+54、修复：将 Message 组件显示 HTML 代码时多出一个 interval 的问题修复，并加入 `<>` 为等待一个 interval 的功能；
+55、优化：将 调试 在桌面端改为多窗口（可以调试多个 qml 文件）；
+==*56、修改：虚拟坐标相关函数（优化多窗口下支持）；==
+==*57、修改：很多系统提供的对象和函数的名字；==
+==*58、修复：调整目录结构（GameMakerGlobal.qml），修复使用在线 GameMaker 时报 Cyclic dependency detected between 的警告；==
+59、增强：`game.loadmap` 支持对象载入（加入 $name 和 $scale 分别为地图名和缩放大小，注意缩放大小只能在调用 `loadmap` 时指定，且重复载入本地图并缩放时必须设置重绘为true）；
+==\*\*60、修改：game.loadmap 参数修改（2、3参数互换位置，且 userData 改为...参数），对应的回调函数 $beforeLoadmap 和 $afterLoadmap 改为 map（对象）和 ...userData；==
+61、修复：起始脚本可视化编辑start函数并编译后重复套 start 的 Bug；
+==*62、修改：$Global.$sys 的属性名；==
+63、增加：示例下载列表和多个示例工程；
+64、修改：在线插件文件组织方式；
+65、修复：彻底修复 Menu 和 Dialog 的坑导致的 focus 不对的问题（各种绕过。。。）；
+66、修复：$CommonLibJS.isQtObjectDestroyed 函数返回值相反的Bug；
+67、修复：游戏测试的一些 Bugs；
+68、修复：`game.delsprite` 和 `game.delimage` 直接给组件时不会删除的Bug；
+69、修复：地图编辑器的2个Bugs（1是无法在退出对话框时输出png；2是新建地图在退出对话框中会保存错误）；
+70、增加：项目根目录增加 ~Cache 文件夹，用来临时保存地图输出和插件下载；
+71、修复：修复和增强 `game.showimage`、`game.delimage`、`game.showsprite`、`game.delsprite` 的一些问题和功能；
+72、修改：把 itemRootScaled 修改为 FocusScope 类型，并将 $list 组件放入它的焦点作用域，防止使用 rootWindow 下的组件时焦点混乱；
+73、新增：树莓派（RaspberryPi Arm64 bookworm）平台包；
+74、修复：特效编辑器 使用复制创建新特效时仍然指向原特效且无法保存的 Bug；
+75、修复：特效编辑器和角色编辑器另存为时没有保存 js 和 vjs 的 Bug；
+76、其他：优化调整很多代码和细节，修复一些 Bugs；
 
 ## 2025/2/2：发布 1.15.2.250202 版本（框架 1.6.5.250202版本）
 
