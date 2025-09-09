@@ -3,7 +3,7 @@ title: 关于
 icon: circle-info
 date: 2025-04-16
 author: false
-footer: <a href="https://www.netlify.com" target="_blank"><img src="https://www.netlify.com/assets/badges/netlify-badge-color-accent.svg" alt="Deploys by Netlify" /></a><br/>Copyright © 2025 <a href="https://www.tasaed.top">TASA-Ed工作室</a>，<a href="https://github.com/leamus">深林孤鹰</a>，<a href="https://qm.qq.com/q/bTB1cZoGze">鹰歌游戏引擎社区</a> licensed <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank">CC BY-SA 4.0</a> | 萌ICP备<a href="https://icp.gov.moe/?keyword=20258272" target="_blank">20258272</a>号<br/>Powered by <a href="https://vuejs.press" target="_blank">VuePress</a> | Theme by <a href="https://theme-hope.vuejs.press" target="_blank">Hope</a>
+footer: <a href="https://www.netlify.com" target="_blank"><img src="https://www.netlify.com/assets/badges/netlify-badge-color-accent.svg" alt="Deploys by Netlify" /></a><br/>Copyright © 2025 <a href="https://www.tasaed.top">TASA-Ed工作室</a>，<a href="https://github.com/leamus">深林孤鹰</a>，<a href="https://qm.qq.com/q/bTB1cZoGze">鹰歌游戏引擎社区</a> licensed <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank">CC BY-SA 4.0</a><br/>Powered by <a href="https://vuejs.press" target="_blank">VuePress</a> | Theme by <a href="https://theme-hope.vuejs.press" target="_blank">Hope</a>
 order: 1
 ---
 
