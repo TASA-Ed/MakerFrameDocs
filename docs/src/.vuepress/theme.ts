@@ -95,8 +95,8 @@ export default hopeTheme({
       sendBtn: "点击发送",
       uaBadge: true,
       gravatar: {
-        mirror: "https://weavatar.com/avatar/",
-        params: "sha256=1&d=mp&s=240",
+        mirror: "https://cn.cravatar.com/avatar/",
+        params: "sha256=1&d=mp&s=240&d=retro",
       },
     },
 
