@@ -31,12 +31,10 @@ jobs:
           node-version: 24
           # 缓存 pnpm 依赖
           cache: pnpm
-          cache-dependency-path: docs/pnpm-lock.yaml
+          cache-dependency-path: pnpm-lock.yaml
 
       - name: Install Modules
         run: pnpm install --frozen-lockfile
-        working-directory: ./docs
 
       - name: Build on Ubuntu
         run: pnpm vuepress-vite build src
-        working-directory: ./docs
