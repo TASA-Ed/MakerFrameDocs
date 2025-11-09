@@ -11,7 +11,7 @@ export default hopeTheme({
 
   favicon: "favicon.ico",
 
-  docsDir: "docs/src",
+  docsDir: "src",
 
   author: {
     name: "TASA-Ed工作室",
