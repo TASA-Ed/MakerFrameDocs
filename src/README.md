@@ -19,6 +19,63 @@ actions:
   - text: 案例
     icon: splotch
     link: /projects/
+highlights:
+  - features:
+      - title: 跨平台
+        icon: layer-group
+        details: 可以运行在Windows、Android、iOS、macOS、Linux等主流平台上。
+        
+      - title: QML支持
+        icon: /assets/image/simpleIcons-qt.svg
+        details: 支持使用QML布局，结合了流行的JS V8引擎。
+        
+      - title: JS支持
+        icon: b:square-js
+        details: 支持使用JS脚本编程，使用的是JS V8引擎。
+        
+      - title: 多类型支持
+        icon: font-awesome
+        details: 支持制作 RPG/ARPG/策略与战旗/文字AVG/放置类 等游戏和运行环境。
+      
+      - title: 扩展性
+        icon: puzzle-piece
+        details: 可以自己编写插件，支持给游戏内或可视化编程提供插件。
+        link: /start/middle/plugin.html
+
+      - title: 易于上手
+        icon: hand
+        details: 支持可视化编程、代码或两者结合的方式来制作。
+        link: /start/beginner/script.html
+
+      - title: 屏幕自适应
+        icon: object-group
+        details: 在任何分辨率，各种不同大小的屏幕下有相同的显示效果。
+        link: /start/middle/interface/
+
+      - title: 网络支持
+        icon: network-wired
+        details: 支持XMLHttp1.0版本，后续考虑完善TCP和UDP协议，Mysql数据库等功能。
+        link: /start/middle/network.html
+
+      - title: 地图编辑器
+        icon: map
+        details: 地图是非常重要的游戏元素之一，鹰歌自带地图编辑器，支持无限地图算法等。
+        link: /start/beginner/map.html
+
+      - title: 角色编辑器
+        icon: user
+        details: 鹰歌自带角色编辑器，支持四向行走图，二向行走图，物品图等。
+        link: /start/beginner/character.html
+
+      - title: 标题画面
+        icon: bars
+        details: 鹰歌自带简易标题画面，也支持使用地图和地图事件，特效，插件实现。
+        link: /start/middle/menu.html
+
+      - title: 更多
+        icon: ellipsis
+        details: 包括打包功能、特效支持、回合制战斗、Buff系统等。
+        link: /start/middle/
 features:
   - title: 跨平台
     icon: layer-group
@@ -37,7 +94,7 @@ features:
     details: 支持制作 RPG/ARPG/策略与战旗/文字AVG/放置类 等游戏和运行环境。
 
   - title: 扩展性
-    icon: square-arrow-up-right
+    icon: puzzle-piece
     details: 可以自己编写插件，支持给游戏内或可视化编程提供插件。
     link: /start/middle/plugin.html
 
@@ -52,7 +109,7 @@ features:
     link: /start/middle/interface/
 
   - title: 网络支持
-    icon: globe
+    icon: network-wired
     details: 支持XMLHttp1.0版本，后续考虑完善TCP和UDP协议，Mysql数据库等功能。
     link: /start/middle/network.html
 

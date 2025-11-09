@@ -151,12 +151,12 @@ export default hopeTheme({
     },
 
     icon: {
-      assets: [
-        "/assets/fontawesome/css/brands.min.css",
-        "/assets/fontawesome/css/solid.min.css",
-        "/assets/fontawesome/css/regular.min.css",
-        "/assets/fontawesome/css/fontawesome.min.css"
-      ]
+        assets: [
+            "/assets/fontawesome/js/brands.min.js",
+            "/assets/fontawesome/js/solid.min.js",
+            "/assets/fontawesome/js/regular.min.js",
+            "/assets/fontawesome/js/fontawesome.min.js"
+        ]
     },
 
     feed: {
