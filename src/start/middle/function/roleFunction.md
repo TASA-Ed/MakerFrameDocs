@@ -34,21 +34,21 @@ game.createhero({RID: "资源ID", $name: "主角名字",$speed:速度});
 
 > 无特殊说明，函数前均省略game类。标注默认则表示系统会默认设置该参数
 
-|  参数   | 解释  |  类型  |
-|  :----  | ----  | ----: |
-| RID  | 资源ID | `String` |
-| $name  | 角色名称 | `String` |
-| $x  | 像素坐标x | `number` |
-| $y  | 像素坐标y | `number` |
-| $bx  | 地图块坐标x | `number` |
-| $by  | 地图块坐标y | `number` |
-| $action  | 为0表示暂时静止<br>为1表示随机移动<br>为-1表示禁止移动和操作<br>为2表示定向移动 | `number` |
-| $direction  | 面向方向（0、1、2、3分别表示上右下左） | `number` |
-| $showName  | 为是否头顶显示名字(默认true) | `Bool` |
-| $id  | 用于角色特征识别(默认$name) | `String` |
-| $penetrate  | 是否可穿透 | `Bool` |
-| $realSize  | 影子大小(默认) | `number` |
-| $start  | 表示角色是否自动动作（true或false) | `String` |
+|     参数     |  解释                                              |       类型 |
+|:----------:|--------------------------------------------------|---------:|
+|    RID     | 资源ID                                             | `String` |
+|   $name    | 角色名称                                             | `String` |
+|     $x     | 像素坐标x                                            | `number` |
+|     $y     | 像素坐标y                                            | `number` |
+|    $bx     | 地图块坐标x                                           | `number` |
+|    $by     | 地图块坐标y                                           | `number` |
+|  $action   | 为0表示暂时静止<br>为1表示随机移动<br>为-1表示禁止移动和操作<br>为2表示定向移动 | `number` |
+| $direction | 面向方向（0、1、2、3分别表示上右下左）                            | `number` |
+| $showName  | 为是否头顶显示名字(默认true)                                |   `Bool` |
+|    $id     | 用于角色特征识别(默认$name)                                | `String` |
+| $penetrate | 是否可穿透                                            |   `Bool` |
+| $realSize  | 影子大小(默认)                                         | `number` |
+|   $start   | 表示角色是否自动动作（true或false)                           | `String` |
 
 ## 控制/获取 主角/角色
 
@@ -67,28 +67,28 @@ var npcX = npc.$bx;
 
 * 第一个参数：
 
-|  参数   | 解释  |  类型  |
-|  :----  | ----  | ----: |
-| $id  | 从id获取属性<br>为0表示主角 | `String` |
+| 参数  | 解释                |       类型 |
+|:----|-------------------|---------:|
+| $id | 从id获取属性<br>为0表示主角 | `String` |
 
 * 内部参数：
 
-|  参数   | 解释  |  类型  |
-|  :----  | ----  | ----: |
-| $x  | 像素坐标x | `number` |
-| $y  | 像素坐标y | `number` |
-| $bx  | 地图块坐标x | `number` |
-| $by  | 地图块坐标y | `number` |
-| $targetBx  | 定向移动地图块坐标x | `number` |
-| $targetBy  | 定向移动地图块坐标y | `number` |
-| $$nActionType  | 角色是否运动<br>10为正在运动 | `number` |
-| $targetX  | 定向移动像素坐标x | `number` |
-| $targetY  | 定向移动像素坐标y | `number` |
-| $action  | 为0表示暂时静止<br>为1表示随机移动<br>为-1表示禁止移动和操作<br>为2表示定向移动 | `number` |
-| $direction  | 面向方向（0、1、2、3分别表示上右下左） | `number` |
-| $showName  | 为是否头顶显示名字 | `Bool` |
-| $realSize  | 影子大小 | `number` |
-| $start  | 表示角色是否自动动作（true或false) | `String` |
+| 参数            | 解释                                               |       类型 |
+|:--------------|--------------------------------------------------|---------:|
+| $x            | 像素坐标x                                            | `number` |
+| $y            | 像素坐标y                                            | `number` |
+| $bx           | 地图块坐标x                                           | `number` |
+| $by           | 地图块坐标y                                           | `number` |
+| $targetBx     | 定向移动地图块坐标x                                       | `number` |
+| $targetBy     | 定向移动地图块坐标y                                       | `number` |
+| $$nActionType | 角色是否运动<br>10为正在运动                                | `number` |
+| $targetX      | 定向移动像素坐标x                                        | `number` |
+| $targetY      | 定向移动像素坐标y                                        | `number` |
+| $action       | 为0表示暂时静止<br>为1表示随机移动<br>为-1表示禁止移动和操作<br>为2表示定向移动 | `number` |
+| $direction    | 面向方向（0、1、2、3分别表示上右下左）                            | `number` |
+| $showName     | 为是否头顶显示名字                                        |   `Bool` |
+| $realSize     | 影子大小                                             | `number` |
+| $start        | 表示角色是否自动动作（true或false)                           | `String` |
 
 * **删除主角/角色**
 
@@ -99,9 +99,9 @@ game.delrole(0); //0表示主角
 game.delrole(`npc`);
 ```
 
-|  参数   | 解释  |  类型  |
-|  :----  | ----  | ----: |
-| $id  | 填入删除角色的id | `String` |
+| 参数  | 解释        |       类型 |
+|:----|-----------|---------:|
+| $id | 填入删除角色的id | `String` |
 
 ## 练习
 
