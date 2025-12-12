@@ -47,12 +47,13 @@ export default {
                 "ThemeColorPicker",
                 "VPIcon",
                 "ToggleFullScreenButton",
-                "ToggleRTLButton",
-            ],
-        },
+                "ToggleRTLButton"
+            ]
+        }
     },
     ignores: [
         "**/node_modules/**",
-        "**/*.snippet.md",
-    ],
+        "**/.vuepress/**",
+        "**/*.snippet.md"
+    ]
 };
