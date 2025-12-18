@@ -1,7 +1,7 @@
 {
   "name": "makerframe_docs",
   "description": "MakerFrame Game Engine Documentation",
-  "version": "1.16.3+20251213",
+  "version": "1.16.4+20251218",
   "license": "CC BY-SA 4.0",
   "type": "module",
   "scripts": {
@@ -12,16 +12,16 @@
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.26",
-    "@vuepress/plugin-comment": "2.0.0-rc.118",
-    "@vuepress/plugin-docsearch": "2.0.0-rc.120",
-    "@vuepress/plugin-feed": "2.0.0-rc.120",
-    "@vuepress/plugin-git": "2.0.0-rc.118",
-    "@vuepress/plugin-notice": "2.0.0-rc.118",
-    "@vuepress/plugin-pwa": "2.0.0-rc.120",
+    "@vuepress/plugin-comment": "2.0.0-rc.121",
+    "@vuepress/plugin-docsearch": "2.0.0-rc.121",
+    "@vuepress/plugin-feed": "2.0.0-rc.121",
+    "@vuepress/plugin-git": "2.0.0-rc.121",
+    "@vuepress/plugin-notice": "2.0.0-rc.121",
+    "@vuepress/plugin-pwa": "2.0.0-rc.121",
     "artalk": "^2.9.1",
     "markdownlint-cli2": "^0.20.0",
-    "sass-embedded": "^1.96.0",
-    "vue": "^3.5.25",
+    "sass-embedded": "^1.97.0",
+    "vue": "^3.5.26",
     "vuepress": "2.0.0-rc.26",
     "vuepress-theme-hope": "2.0.0-rc.99"
   },
