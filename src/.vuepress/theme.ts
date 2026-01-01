@@ -36,7 +36,7 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: '<a href=\"https://docs-mf.tasaed.top\">鹰歌游戏引擎文档</a> | Copyright © 2025 <a href=\"https://www.tasaed.top\">TASA-Ed工作室</a>，<a href=\"https://github.com/leamus\">深林孤鹰</a>，<a href=\"https://qm.qq.com/q/bTB1cZoGze\">鹰歌游戏引擎社区</a> licensed <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" target=\"_blank\">CC BY-SA 4.0</a><br/>Powered by <a href=\"https://vuejs.press\" target=\"_blank\">VuePress</a> | Theme by <a href=\"https://theme-hope.vuejs.press\" target=\"_blank\">Hope</a>',
+  footer: '<a href=\"https://docs-mf.tasaed.top\">鹰歌游戏引擎文档</a> | Copyright © 2025 - 2026 <a href=\"https://www.tasaed.top\">TASA-Ed工作室</a>，<a href=\"https://github.com/leamus\">深林孤鹰</a>，<a href=\"https://qm.qq.com/q/bTB1cZoGze\">鹰歌游戏引擎社区</a> licensed <a href=\"https://creativecommons.org/licenses/by-sa/4.0\" target=\"_blank\">CC BY-SA 4.0</a><br/>Powered by <a href=\"https://vuejs.press\" target=\"_blank\">VuePress</a> | Theme by <a href=\"https://theme-hope.vuejs.press\" target=\"_blank\">Hope</a>',
   copyright: false,
   displayFooter: true,
 
@@ -164,7 +164,7 @@ export default hopeTheme({
       image: "/assets/image/logo.png",
       icon: "/assets/image/TwemojiEagle.svg",
       channel: {
-        copyright: "Copyright © 2025 TASA-Ed工作室，深林孤鹰 licensed CC BY-SA 4.0",
+        copyright: "Copyright © 2025 - 2026 TASA-Ed工作室，深林孤鹰 licensed CC BY-SA 4.0",
         ttl: 1440,
         image: "/assets/image/logo.png",
         icon: "/assets/image/TwemojiEagle.svg",
