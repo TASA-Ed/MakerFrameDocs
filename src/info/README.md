@@ -29,14 +29,15 @@ icon: circle-info
 
 1. Windows版本：将Qt环境（Qt_v5.15.12_win_x64）和框架引擎（MakerFrame_鹰歌框架引擎_win_x64_vXXX）解压并放在一起 ，双击“_运行鹰歌.bat”；
 2. Android：安装运行 MakerFrame_鹰歌框架引擎_xxx_armeabi-v7a.apk 或 MakerFrame_鹰歌框架引擎_xxx_arm64-v8a.apk 即可；
-3. Linux：目前已在OpenKylin系统上打包DEB，并上架了其公司的应用商店（应该支持Debian、Ubuntu及衍生的操作系统）；
-4. 苹果iOS、macOS、其他架构Linux（RedHat、UOS国产化系统、Arm架构相关）等：已经适配，但由于精力和经济问题（iOS应用市场还需要付费上架），以后再发布；
-5. 打开软件后，进入GameMaker主界面，再点击 示例工程，请等待下载完毕后，点击 开始运行-》运行 就OK了；
-6. 各平台的框架引擎都支持热更新（打开软件后会自动检测并更新 动态链接库内核、QML底层库和Java代码库Dex），无需重新下载安装新版，QML游戏引擎在线版也是即时更新的（服务器带宽较慢，可能升级和下载时间会稍微长一点）。
+3. Linux：目前已在 OpenKylin 系统上打包 DEB，并上架了其公司的应用商店（应该支持 Debian、Ubuntu 及衍生的操作系统）；
+4. OpenHarmony 版本已经上架到了华为应用市场中；
+5. 苹果 iOS、macOS、其他架构 Linux（RedHat、UOS 国产化系统、Arm 架构相关）等：已经适配，但由于精力和经济问题（iOS 应用市场还需要付费上架），以后再发布；
+6. 打开软件后，进入 GameMaker 主界面，再点击 示例工程，请等待下载完毕后，点击 开始运行-》运行 就 OK 了；
+7. 各平台的框架引擎都支持热更新（打开软件后会自动检测并更新 动态链接库内核、QML 底层库和 Java 代码库 Dex），无需重新下载安装新版，QML游戏引擎在线版也是即时更新的（服务器带宽较慢，可能升级和下载时间会稍微长一点）。
 
 ## 功能和特色
 
-* 1、 跨平台：框架引擎和游戏都可完美运行在Windows（win7及以上）、Android（6.0及以上）、MacOS、iOS、Linux（包括Ubuntu、Debian、国产化的OpenKylin和UOS、Arm的树莓派）等操作系统上；
+* 1、 跨平台：框架引擎和游戏都可完美运行在Windows（win7及以上）、Android（6.0及以上）、MacOS、iOS、Linux（包括Ubuntu、Debian、国产化的OpenKylin和UOS、Arm的树莓派）、OpenHarmony等操作系统上；
 * 2、 全功能网络：支持 TCP、UDP、HTTP（XmlHttpRequest和QNetwork封装的两种方式，后者自由度高）、WebSocket（QML）、MQTT、串口（QextSerialPort）等多种常用协议的服务端和客户端开发，也可自己封装其他协议；API使用非常简单，支持异步函数的同步写法；支持互联网、局域网、蓝牙、NFC等通信方式；
 * 3、 配套的后台服务软件和数据库：已有PHP开发的弱网系统（Workerman/Webman高并发服务），C++开发的联机系统（IOCP高并发模型），配套Redis、MySQL来做缓存和存储，支持注册登录、房间及管理、聊天、联机对战（帧同步）等功能，可万人同时在线；数据存储自由度高，支持JSON，各平台共享；
 * 4、 多种发布形式：能生成对应平台的安装包exe、apk、bin、deb等（可发布在Steam、Tap、OpenKylin等平台），也能生成框架引擎能载入运行的游戏ROM包；资源和代码支持源文件形式，也支持压缩、打包、加密的形式，一定程度上可防逆向；ROM可以分发到各平台，或上传到官网，用链接、二维码、分享等形式来载入运行；

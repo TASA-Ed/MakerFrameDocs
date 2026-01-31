@@ -23,13 +23,15 @@ icon: download
 
 <!-- @include: ../engineReleases.snippet.md -->
 
-Windows版本需要将Qt环境（Qt_v5.15.16_win_x64）和框架引擎（MakerFrame_鹰歌框架引擎_win_x64_vXXX）解压并放在一起，然后双击 `_运行鹰歌.bat` 即可。
+Windows 版本需要将 Qt 环境（Qt_v5.15.16_win_x64）和框架引擎（MakerFrame_鹰歌框架引擎_win_x64_vXXX）解压并放在一起，然后双击 `_运行鹰歌.bat` 即可。
 
-Android版本需要下载 `MakerFrame_鹰歌框架引擎_Updater_xxx_armeabi-v7a.apk` 或 `MakerFrame_鹰歌框架引擎_Updater_xxx_arm64-v8a.apk` ，一般下载后者。
+Android 版本需要下载 `MakerFrame_鹰歌框架引擎_Updater_xxx_armeabi-v7a.apk` 或 `MakerFrame_鹰歌框架引擎_Updater_xxx_arm64-v8a.apk` ，一般下载后者。
 
-Linux版本目前只支持Debian系，需要下载 `MakerFrame_鹰歌框架引擎_Updater_Linux_x64_xxx.deb` ，同时可以在OpenKylin系统的应用商店下载。
+Linux 版本目前只支持 Debian 系，需要下载 `MakerFrame_鹰歌框架引擎_Updater_Linux_x64_xxx.deb` ，同时可以在 OpenKylin 系统的应用商店下载。
 
-苹果iOS、macOS、其他架构Linux（RedHat、UOS国产化系统、Arm架构相关）等：已经适配，但由于精力和经济问题（iOS应用市场还需要付费上架），以后再发布。
+OpenHarmony 版本已经上架到了华为应用市场中。
+
+苹果 iOS、macOS、其他架构 Linux（RedHat、UOS 国产化系统、Arm 架构相关）等：已经适配，但由于精力和经济问题（iOS 应用市场还需要付费上架），以后再发布。
 
 另外，除了鹰歌运行环境一般需要手动升级（情况很少），引擎大部分（包括内核、引擎）都是自己热更新的，不需要手动下载更新，非常方便。
 
