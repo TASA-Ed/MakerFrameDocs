@@ -126,6 +126,7 @@ Qt.platform.os
 - "unix"：其他基于 Unix 的系统
 - "windows"：Windows 系统
 - "wasm"：WebAssembly
+- "openharmony "：OpenHarmony 系统
 
 ### 系统语言
 
@@ -140,6 +141,16 @@ Qt.uiLanguage
 - "zh"：中文
 - "en"：英语
 - ...
+
+### 相对路径转换
+
+用于将相对路径转换为绝对路径。
+
+```js
+Qt.resolvedUrl("./一个相对路径/")
+```
+
+返回一个相对于调用者的绝对路径。
 
 ## 导入外部脚本
 

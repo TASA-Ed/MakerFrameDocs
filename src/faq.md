@@ -24,8 +24,9 @@ date: 2025-05-13
 * Windows
 * Android
 * Linux（目前仅支持Debian系）
+* OpenHarmony
 
-苹果iOS、macOS、其他架构Linux（RedHat、UOS国产化系统、Arm架构相关）等：已经适配，但由于精力和经济问题（iOS应用市场还需要付费上架），以后再发布。
+苹果 iOS、macOS、其他架构 Linux（RedHat、UOS 国产化系统、Arm 架构相关）等：已经适配，但由于精力和经济问题（iOS 应用市场还需要付费上架），以后再发布。
 
 ### 目前支持打包到如下平台
 
