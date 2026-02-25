@@ -1,7 +1,7 @@
 {
   "name": "makerframe_docs",
   "description": "MakerFrame Game Engine Documentation",
-  "version": "1.16.8+20260201",
+  "version": "1.16.9+20260225",
   "license": "CC BY-SA 4.0",
   "type": "module",
   "scripts": {
@@ -12,16 +12,16 @@
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.26",
-    "@vuepress/plugin-comment": "2.0.0-rc.122",
-    "@vuepress/plugin-docsearch": "2.0.0-rc.122",
-    "@vuepress/plugin-feed": "2.0.0-rc.122",
-    "@vuepress/plugin-git": "2.0.0-rc.122",
-    "@vuepress/plugin-notice": "2.0.0-rc.122",
-    "@vuepress/plugin-pwa": "2.0.0-rc.122",
+    "@vuepress/plugin-comment": "2.0.0-rc.123",
+    "@vuepress/plugin-docsearch": "2.0.0-rc.123",
+    "@vuepress/plugin-feed": "2.0.0-rc.123",
+    "@vuepress/plugin-git": "2.0.0-rc.123",
+    "@vuepress/plugin-notice": "2.0.0-rc.123",
+    "@vuepress/plugin-pwa": "2.0.0-rc.123",
     "artalk": "^2.9.1",
-    "markdownlint-cli2": "^0.20.0",
+    "markdownlint-cli2": "^0.21.0",
     "sass-embedded": "^1.97.3",
-    "vue": "^3.5.27",
+    "vue": "^3.5.29",
     "vuepress": "2.0.0-rc.26",
     "vuepress-theme-hope": "2.0.0-rc.102"
   },
@@ -33,7 +33,7 @@
     "overrides": {
       "esbuild": "^0.25.11",
       "vite": "^7.1.12",
-      "react": "^19.2.3"
+      "react": "^19.2.4"
     }
   }
 }
