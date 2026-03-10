@@ -88,18 +88,14 @@ export default hopeTheme({
 
   plugins: {
     comment: {
-      provider: "Artalk",
-      server: "https://talk.tasaed.top",
-      locale: "zh-CN",
-      emoticons: "https://api.tasaed.top/artalk/default.json",
-      placeholder: "输入你想说的话吧",
-      noComment: "这里还没有评论，快来抢沙发！",
-      sendBtn: "点击发送",
-      uaBadge: true,
-      gravatar: {
-        mirror: "https://cn.cravatar.com/avatar/",
-        params: "sha256=1&d=mp&s=240&d=retro",
-      },
+      provider: "Giscus",
+      repo: "TASA-Ed/.giscus",
+      repoId: "R_kgDORjebKg",
+      category: "Announcements",
+      categoryId: "DIC_kwDORjebKs4C4GTe",
+      mapping: "url",
+      lightTheme: "light_protanopia",
+      darkTheme: "dark_protanopia"
     },
 
     docsearch: {
@@ -177,7 +173,7 @@ export default hopeTheme({
       {
         path: "/",
         title: "引擎公告",
-        content: "因为目前鹰歌游戏引擎已经完善，所以现在开发者深林孤鹰的重心并不在这里，不过如果有问题的话也可以去找开发者深林孤鹰咨询。",
+        content: "本文档正在减少维护。因为目前鹰歌游戏引擎已经完善，所以现在开发者深林孤鹰的重心并不在这里，不过如果有问题的话也可以去找开发者深林孤鹰咨询。",
         confirm: true,
         showOnce: true,
         actions: [

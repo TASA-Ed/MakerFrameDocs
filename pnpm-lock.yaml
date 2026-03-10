@@ -34,9 +34,6 @@ importers:
       '@vuepress/plugin-pwa':
         specifier: 2.0.0-rc.125
         version: 2.0.0-rc.125(@vuepress/bundler-vite@2.0.0-rc.26(@types/node@25.3.5)(esbuild@0.25.12)(sass-embedded@1.97.3)(sass@1.97.3)(terser@5.46.0))(vuepress@2.0.0-rc.26(@vuepress/bundler-vite@2.0.0-rc.26(@types/node@25.3.5)(esbuild@0.25.12)(sass-embedded@1.97.3)(sass@1.97.3)(terser@5.46.0))(vue@3.5.30))
-      artalk:
-        specifier: ^2.9.1
-        version: 2.9.1(marked@16.4.2)
       markdownlint-cli2:
         specifier: ^0.21.0
         version: 0.21.0
@@ -6204,6 +6201,7 @@ snapshots:
   artalk@2.9.1(marked@16.4.2):
     dependencies:
       marked: 16.4.2
+    optional: true
 
   async-function@1.0.0: {}
 
@@ -7235,7 +7233,8 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  marked@16.4.2: {}
+  marked@16.4.2:
+    optional: true
 
   math-intrinsics@1.1.0: {}
 
