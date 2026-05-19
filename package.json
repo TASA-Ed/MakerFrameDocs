@@ -11,17 +11,17 @@
     "docs:update-package": "pnpm dlx vp-update"
   },
   "devDependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.28",
-    "@vuepress/plugin-comment": "2.0.0-rc.128",
-    "@vuepress/plugin-docsearch": "2.0.0-rc.128",
-    "@vuepress/plugin-feed": "2.0.0-rc.128",
-    "@vuepress/plugin-git": "2.0.0-rc.128",
-    "@vuepress/plugin-notice": "2.0.0-rc.128",
-    "@vuepress/plugin-pwa": "2.0.0-rc.128",
+    "@vuepress/bundler-vite": "2.0.0-rc.30",
+    "@vuepress/plugin-comment": "2.0.0-rc.130",
+    "@vuepress/plugin-docsearch": "2.0.0-rc.130",
+    "@vuepress/plugin-feed": "2.0.0-rc.130",
+    "@vuepress/plugin-git": "2.0.0-rc.130",
+    "@vuepress/plugin-notice": "2.0.0-rc.130",
+    "@vuepress/plugin-pwa": "2.0.0-rc.130",
     "markdownlint-cli2": "^0.22.1",
     "sass-embedded": "^1.99.0",
-    "vue": "^3.5.33",
-    "vuepress": "2.0.0-rc.28",
-    "vuepress-theme-hope": "2.0.0-rc.106"
+    "vue": "^3.5.34",
+    "vuepress": "2.0.0-rc.30",
+    "vuepress-theme-hope": "2.0.0-rc.107"
   }
 }
