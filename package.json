@@ -19,8 +19,8 @@
     "@vuepress/plugin-notice": "2.0.0-rc.130",
     "@vuepress/plugin-pwa": "2.0.0-rc.130",
     "markdownlint-cli2": "^0.22.1",
-    "sass-embedded": "^1.99.0",
-    "vue": "^3.5.34",
+    "sass-embedded": "^1.100.0",
+    "vue": "^3.5.39",
     "vuepress": "2.0.0-rc.30",
     "vuepress-theme-hope": "2.0.0-rc.107"
   }
