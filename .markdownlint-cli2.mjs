@@ -28,7 +28,7 @@ export default {
                 "DemoProject",
                 "HighlightPanel",
                 "ProjectLink",
-                "PDF",
+                "PDFViewer",
                 "Replit",
                 "Share",
                 "SiteInfo",

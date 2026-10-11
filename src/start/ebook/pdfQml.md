@@ -7,7 +7,7 @@ order: 1
 
 ## QmlBook In Chinese
 
-<PDF url="//docs-mf.tasaed.top/assets/pdf/pdfQmlBookInChinese.pdf" />
+<PDFViewer src="/assets/pdf/pdfQmlBookInChinese.pdf" />
 
 ## 遇到问题？
 
