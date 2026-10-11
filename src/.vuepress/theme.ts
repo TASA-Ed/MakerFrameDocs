@@ -101,16 +101,11 @@ export default hopeTheme({
     docsearch: {
       appId: "NNZCDJNBW8",
       apiKey: "c45b30fc8b8df4259e969fa101b29b33",
-      indexName: "mf-tasaed",
+      indices: ["mf-tasaed"],
     },
 
     components: {
-      components: ["Badge", "VPCard", "PDF", "SiteInfo", "VPBanner"],
-      componentOptions: {
-        pdf: {
-          pdfjs: "/pdfjs"
-        }
-      }
+      components: ["Badge", "VPCard", "SiteInfo", "VPBanner"],
     },
 
     git: {
@@ -135,6 +130,11 @@ export default hopeTheme({
           },
         ],
       }
+    },
+
+    media: {
+      pdf: true,
+      artplayer: false
     },
 
     pwa: {
